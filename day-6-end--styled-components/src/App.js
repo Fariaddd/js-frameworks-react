@@ -4,7 +4,7 @@ import PageHeading from "./components/headings/PageHeading";
 import Container from "./components/layout/Container";
 import Input from "./components/form/Input";
 import Form from "./components/form/Form";
-import Button, {DangerButton} from "./components/form/Button";
+import Button, {DangerButton, AnotherButton}  from "./components/form/Button";
 import GlobalStyle from "./styles/GlobalStyle";
 // 3 THEME Styled components allow us to create theme
 
@@ -29,6 +29,7 @@ function App() {
           <Input placeholder="City" colour="#dbc2cf"/>
           <Button>Register</Button>
           <DangerButton>Cancel</DangerButton>
+          <AnotherButton>Sign Up</AnotherButton>
         </Form>
       </Container>
     </ThemeProvider>

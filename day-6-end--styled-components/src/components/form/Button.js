@@ -8,6 +8,7 @@ const Button = styled.button`
   border-radius: 8px;
   border: none;
   margin-bottom: 1rem;
+  cursor: pointer;
 `
 
 export default Button;
@@ -17,6 +18,13 @@ export default Button;
 export const DangerButton = styled(Button)`
   background-color: ${(props) => props.theme.dangerColour};
   height: 46px;
+  cursor: pointer;
+`
+
+export const AnotherButton = styled(Button)`
+  background-color: ${(props) => props.theme.borderColour};
+  height: 40px;
+  cursor: pointer;
 `
 
 // NB We can only have one default export
